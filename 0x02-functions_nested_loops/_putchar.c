@@ -10,8 +10,4 @@ void _putchar(char s)
 {
         putchar(s);
 
-/**
- * main - outputs _putchar
- *
- * Return: zero
- */ 
+} 
