@@ -7,7 +7,9 @@
  */
 
 void _putchar(char s)
+
 {
+
         putchar(s);
 
 } 
