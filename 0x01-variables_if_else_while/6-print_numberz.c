@@ -1,18 +1,19 @@
 #include <stdio.h>
 
-/*
- * main - Prints numbers between 0 to 9.
+/**
+ * main - prints number from 0 to 9 of base 10
+ * followed by a new line
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	int i;
+	int ch;
 
-	for (i = 48; i < 58; i++)
+	for (ch = 48; ch <= 59; ch++)
 	{
-		putchar(i);
+		putchar(ch);
 	}
-	putchar('\n');
-	return (0);
+	putchar(10);
+		return (0);
 }
